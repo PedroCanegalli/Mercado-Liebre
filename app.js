@@ -4,10 +4,6 @@ const path = require('path');
 
 const app = express();
 
-app.listen(3000, function() {
-    console.log("Servidor corriendo")
-});
-
 const publicPath = path.resolve(__dirname, "./public");
 
 app.use(express.static(publicPath));
@@ -22,4 +18,8 @@ app.get("/register", (req, res) => {
 
 app.get("/login", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/login.html"))
+});
+
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Servidor corriendo")
 });
