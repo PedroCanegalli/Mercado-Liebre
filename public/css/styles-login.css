@@ -131,6 +131,13 @@ section.publicidad img{
     font-size: 2em;
 }
 
+.iconos:hover {
+    text-align: center;
+    color: lightgreen;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
 section.pie h3{
     margin: 0px;
     font-size: 18px;
@@ -210,8 +217,8 @@ main .boton-enviar input:hover{
     margin-bottom: 30px;
     padding: 12px;
     background-color: #0022AA;
-    color: #FFF;
-    border: 0px solid #1259c3;
+    color:#FFF;
+    border: 0px solid #0022AA;
     border-radius: 5px;
 }
 

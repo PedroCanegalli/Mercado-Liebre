@@ -131,6 +131,13 @@ section.publicidad img{
     font-size: 2em;
 }
 
+.iconos:hover {
+    text-align: center;
+    color: lightgreen;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
 section.pie h3{
     margin: 0px;
     font-size: 18px;
